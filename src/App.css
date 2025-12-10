@@ -1,0 +1,67 @@
+body {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 420px;
+  height: auto;
+  background-color: rgba(49, 48, 49, 0.822);
+  border-radius: 20px;
+  color: white;
+}
+
+.inputfield {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.inputfield h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.inputfield input {
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+.inputfield ::placeholder{
+  padding: 5px;
+  font-size: 14px;
+}
+.inputfield button {
+  width: 300px;
+  margin: 10px 0;
+  background-color: rgb(255, 3, 3);
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.moviecontainer {
+  width: 350px;
+}
+
+.movie-card img {
+  width: 180px;
+  height: 200px;
+}
+
+.movie-card h4 {
+  margin: 15px 0;
+}
+
+.Child {
+  margin: 20px;
+}
