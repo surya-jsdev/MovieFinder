@@ -1,19 +1,23 @@
 body {
-  height: 95vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
+
 }
 
 .container {
+  position: relative;
+  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-width: 420px;
+  width: 420px;
   height: auto;
-  background-color: rgba(49, 48, 49, 0.822);
+  backdrop-filter: blur(20px);
+  background: rgba(159, 156, 156, 0.3);
   border-radius: 20px;
   color: white;
 }
@@ -30,15 +34,21 @@ body {
   margin: 20px 0;
 }
 
+.inputfield p {
+  font-size: 0.9em;
+}
+
 .inputfield input {
   padding: 10px;
   border-radius: 10px;
   width: 300px;
 }
-.inputfield ::placeholder{
+
+.inputfield ::placeholder {
   padding: 5px;
   font-size: 14px;
 }
+
 .inputfield button {
   width: 300px;
   margin: 10px 0;
@@ -54,8 +64,8 @@ body {
 }
 
 .movie-card img {
-  width: 180px;
-  height: 200px;
+  width: 150px;
+  height: 180px;
 }
 
 .movie-card h4 {

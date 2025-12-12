@@ -9,6 +9,7 @@ import ColorSchemesExample from './Navbar.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
+
     {/* <ColorSchemesExample /> */}
     {/* <Count /> */}
   </StrictMode>,
