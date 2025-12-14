@@ -57,7 +57,6 @@ function App() {
         </div>
         <div className="resultcontainer">
           <Movie result={Results} />
-
         </div>
       </div>
     </>
