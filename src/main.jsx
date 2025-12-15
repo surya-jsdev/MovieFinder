@@ -9,8 +9,8 @@ import Weather from './Weather.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-    <Weather />
+    <App />
+    {/* <Weather /> */}
     {/* <ColorSchemesExample /> */}
     {/* <GetData /> */}
   </StrictMode>,

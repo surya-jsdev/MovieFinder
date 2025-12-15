@@ -1,4 +1,4 @@
-/* body {
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -74,4 +74,4 @@
 
 .Child {
   margin: 20px;
-} */
+}
