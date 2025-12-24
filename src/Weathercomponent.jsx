@@ -6,9 +6,9 @@ function Report({ results }) {
         <div className="weatherresult">
             <h3>
                 City: {results.name}
-                {iconUrl && <img src={iconUrl} alt="Weather Icon" />}
+                {iconUrl && <img className="icon" src={iconUrl} alt="Weather Icon" />}
             </h3>
-            <p ><strong>Temperature:</strong> {results.main && results.main.temp}°C</p>
+            <p className="Temp">{results.main && results.main.temp}°C</p>
             <p><strong>Weather:</strong> {results.weather && results.weather[0] && results.weather[0].description}</p>
             <p><strong>Humidity:</strong> {results.main && results.main.humidity}%</p>
             <p><strong>Wind:</strong> {results.wind && results.wind.speed} m/s</p>

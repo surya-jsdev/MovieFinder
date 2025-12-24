@@ -38,3 +38,17 @@ body {
   border-radius: 10px;
   border: none;
 }
+.weatherresult{
+ position: relative;
+  width: 400px;
+  height: auto;
+  padding: 10px;
+}
+.icon{
+  position: absolute;
+  right: 50px;
+  top: 0;
+}
+.Temp{
+  font-size: 30px;
+}
